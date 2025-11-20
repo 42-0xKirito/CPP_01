@@ -2,10 +2,12 @@
 
 Weapon::Weapon(std::string type) : _type(type)
 {
+	std::cout << "Weapon Constructor called." << std::endl;
 }
 
 Weapon::Weapon()
 {
+	std::cout << "Weapon Constructor called." << std::endl;
 }
 
 std::string& Weapon::getType()
@@ -20,4 +22,5 @@ void Weapon::setType(std::string newType)
 
 Weapon::~Weapon()
 {
+	std::cout << "Weapon Destructor called." << std::endl;
 }

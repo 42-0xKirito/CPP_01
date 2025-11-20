@@ -2,6 +2,7 @@
 
 Harl::Harl()
 {
+	std::cout << "Harl Constructor called." << std::endl;
 }
 
 void Harl::debug( void )
@@ -40,4 +41,5 @@ void Harl::complain( std::string level )
 
 Harl::~Harl()
 {
+	std::cout << "Harl Destructor called." << std::endl;
 }

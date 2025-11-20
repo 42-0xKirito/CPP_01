@@ -8,7 +8,7 @@ CXX		= c++
 all	: $(NAME)
 
 $(NAME)	: $(OBJ)
-	$(CXX) $(CFLAGS) $(OBJ) -o $(NAME) $(INCLUDE)
+	$(CXX) $(CFLAGS) $(OBJ) -o $(NAME)
 
 clean :
 	rm -rf $(OBJ)

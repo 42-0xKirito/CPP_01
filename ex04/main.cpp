@@ -31,7 +31,7 @@ int main(int argc, char **argv)
 		ofs << text;
 		return 0;
 	}
-
+	
 	std::size_t index;
 	std::size_t	i = 0;
 

@@ -2,6 +2,7 @@
 
 HumanB::HumanB(std::string name) : _name(name) , _weapon(NULL)
 {
+	std::cout << "HumanB Constructor called." << std::endl;
 }
 
 void HumanB::Attack()
@@ -19,4 +20,5 @@ void HumanB::setWeapon(Weapon &weapon)
 
 HumanB::~HumanB()
 {
+	std::cout << "HumanB Destructor called." << std::endl;
 }
