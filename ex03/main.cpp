@@ -15,5 +15,4 @@ int main()
 	humanB.Attack();
 	weapon.setType("pique");
 	humanB.Attack();
-
 }
